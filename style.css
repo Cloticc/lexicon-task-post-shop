@@ -16,6 +16,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 100px 100px;
 }
 
 .main-container main div {
@@ -51,40 +52,41 @@ button {
   margin: 10px 10px;
 }
 
-.secondary-container {
+/* .secondary-container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  flex-direction: row;
 
+} */
 .secondary-container {
-  color: black;
   display: flex;
-/* margin: 50px 100px; */
-
+  justify-content: center;
 }
 
-.secondary-container img {
-  width: 80%;
-  height: auto;
-  aspect-ratio: 3/4; /* Set the aspect ratio to 3:4 */
-  margin: auto;
+.char-11, .char-12 {
+  display: flex;
+  flex-direction: column;
+
+  width: 45%; 
+  margin: 0 10px; 
 }
 
-.secondary-container .text-container {
+.char-11 img, .char-12 img {
+  width: 100%;
+  height: auto;  
+}
+
+
+.char-11, .char-12 {
+  color: black;
   background-color: white;
-  width: 80%;
-  margin: -26px 0;
+  margin: 10px 10px;
 }
 
-.secondary-container .text-container h1 {
-  margin: 20px 20px;
-padding-top: 20px;
-}
 
-.secondary-container .text-container p {
-  margin: 20px 20px;
-}
+/* footer content */
+
 footer {
   /* margin-top: auto; */
   margin: 50px 0;
