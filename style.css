@@ -90,31 +90,104 @@ button {
 .char-11 p, .char-12 p {
   margin: 10px 10px;
 }
-/* footer content */
 
-footer {
-  margin: 50px 0;
-  color: white;
-}
+
 
 .footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
   padding: 20px;
-  background-color: gray;
+  margin-top: 100px;
 }
 
-.footer-left,
-.footer-right {
-  display: flex;
-  flex-direction: column;
+.footer-left, .footer-middle, .footer-right {
+  flex: 1;
 }
 
-.footer-right ul {
-  list-style-type: none;
+.footer-left ul {
+  list-style: none;
   padding: 0;
 }
 
-.footer-right ul li {
-  margin-bottom: 10px;
+.footer-left ul li {
+  display: inline;
+  margin-right: 10px;
 }
+
+.footer-left img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: #888;
+}
+
+.footer-middle {
+  text-align: center;
+}
+
+.footer-right ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-right ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.social-icons a {
+  color: #333; /* adjust as needed */
+  margin-right: 10px; /* adjust as needed */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* adjust as needed */
+}
+
+@media (max-width: 768px) {
+  .main-container main {
+    margin: 100px 50px;
+  }
+
+  .main-container main div {
+    flex-basis: calc(
+      50% - 20px
+    ); /* 50% for 2 items per row, 20px for margin */
+  }
+
+  .secondary-container {
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .char-11, .char-12 {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    margin: 10px 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .footer-left {
+    margin-bottom: 20px;
+  }
+
+  .footer-right ul {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+```
+```
