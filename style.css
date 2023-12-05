@@ -48,47 +48,51 @@ button {
   font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-
   margin: 10px 10px;
+  border-radius: 10px;
 }
 
-/* .secondary-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+/* section */
 
-} */
 .secondary-container {
   display: flex;
   justify-content: center;
+  margin: 0 70px;
 }
 
 .char-11, .char-12 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 45%; /* adjust as needed */
+  aspect-ratio: 3 / 4; /* adjust as needed */
+  margin: 0 10px; /* add horizontal margin */
 
-  width: 45%; 
-  margin: 0 10px; 
 }
 
 .char-11 img, .char-12 img {
   width: 100%;
-  height: auto;  
+  height: auto;
 }
+
 
 
 .char-11, .char-12 {
   color: black;
   background-color: white;
+  /* margin: 10px 10px; */
+}
+
+.char-11 h1, .char-12 h1 {
   margin: 10px 10px;
 }
 
-
+.char-11 p, .char-12 p {
+  margin: 10px 10px;
+}
 /* footer content */
 
 footer {
-  /* margin-top: auto; */
   margin: 50px 0;
   color: white;
 }
@@ -97,7 +101,6 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  /* gray background */
   background-color: gray;
 }
 
