@@ -2,8 +2,8 @@
 
 body,
 html {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   background-color: black;
 }
@@ -32,9 +32,10 @@ html {
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
 
-h1,
-p {
+.main-container main div h1,
+.main-container main div p {
   color: white;
+  margin: 10px 10px;
 }
 
 button {
@@ -46,6 +47,8 @@ button {
   font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+
+  margin: 10px 10px;
 }
 
 .secondary-container {
@@ -54,3 +57,59 @@ button {
   align-items: center;
 }
 
+.secondary-container {
+  color: black;
+  display: flex;
+/* margin: 50px 100px; */
+
+}
+
+.secondary-container img {
+  width: 80%;
+  height: auto;
+  aspect-ratio: 3/4; /* Set the aspect ratio to 3:4 */
+  margin: auto;
+}
+
+.secondary-container .text-container {
+  background-color: white;
+  width: 80%;
+  margin: -26px 0;
+}
+
+.secondary-container .text-container h1 {
+  margin: 20px 20px;
+padding-top: 20px;
+}
+
+.secondary-container .text-container p {
+  margin: 20px 20px;
+}
+footer {
+  /* margin-top: auto; */
+  margin: 50px 0;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* gray background */
+  background-color: gray;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-right ul li {
+  margin-bottom: 10px;
+}
