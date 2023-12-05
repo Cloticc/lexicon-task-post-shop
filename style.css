@@ -130,18 +130,26 @@ button {
   text-align: center;
 }
 
-.footer-right ul {
+ ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.footer-right ul li a {
+ul li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
 }
 
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 20px 0;
+}
 .social-icons a {
   color: #333; /* adjust as needed */
   margin-right: 10px; /* adjust as needed */
@@ -150,6 +158,19 @@ button {
 .social-icons a:hover {
   color: #007bff; /* adjust as needed */
 }
+
+.fa-facebook-f {
+  color: blue;
+}
+
+.fa-instagram {
+  color: purple;
+}
+
+.fa-twitter {
+  color: lightblue;
+}
+
 
 @media (max-width: 768px) {
   .main-container main {
@@ -189,5 +210,3 @@ button {
     gap: 10px;
   }
 }
-```
-```
