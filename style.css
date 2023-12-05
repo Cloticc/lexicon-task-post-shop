@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.header-picture {
+  width: 100%;
+  /* height: auto; */
+
+
+}
+
+
+
+.main-container main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-container main div {
+  flex-basis: calc(33.33% - 20px); /* 33.33% for 3 items per row, 20px for margin */
+  margin: 10px;
+}
+
+.main-container main div img {
+  width: 100%;
+  height: auto;
+}
