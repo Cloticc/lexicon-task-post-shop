@@ -173,3 +173,82 @@ header img {
   width: 30%;
   margin-left: auto;
 }
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  flex: 1;
+}
+
+.footer-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-left ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-left img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: #888;
+}
+
+.footer-middle {
+  text-align: center;
+}
+
+ ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 20px 0;
+}
+.social-icons a {
+  color: #333; 
+  margin-right: 10px; 
+}
+
+.social-icons a:hover {
+  color: #007bff; 
+}
+
+.fa-facebook-f {
+  color: blue;
+}
+
+.fa-instagram {
+  color: purple;
+}
+
+.fa-twitter {
+  color: lightblue;
+}
