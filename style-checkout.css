@@ -67,7 +67,9 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin: 0 50px;
+  /* margin: 0 50px; */
+  margin: 0 30px;
+
 }
 
 .card img {
