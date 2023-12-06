@@ -22,7 +22,7 @@ header {
 
 header h1 {
   position: absolute;
-  top: 50px;
+  top: 10rem;
   font-size: 3rem;
   z-index: 2;
 }
