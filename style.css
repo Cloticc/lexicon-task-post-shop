@@ -64,9 +64,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45%; /* adjust as needed */
-  aspect-ratio: 3 / 4; /* adjust as needed */
-  margin: 0 10px; /* add horizontal margin */
+  width: 45%; 
+  aspect-ratio: 3 / 4;
+  margin: 0 10px; 
 
 }
 
@@ -151,12 +151,12 @@ ul li a:hover {
   margin: 20px 0;
 }
 .social-icons a {
-  color: #333; /* adjust as needed */
-  margin-right: 10px; /* adjust as needed */
+  color: #333; 
+  margin-right: 10px; 
 }
 
 .social-icons a:hover {
-  color: #007bff; /* adjust as needed */
+  color: #007bff; 
 }
 
 .fa-facebook-f {
@@ -180,7 +180,7 @@ ul li a:hover {
   .main-container main div {
     flex-basis: calc(
       50% - 20px
-    ); /* 50% for 2 items per row, 20px for margin */
+    ); 
   }
 
   .secondary-container {
