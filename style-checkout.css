@@ -36,7 +36,10 @@ header img {
   height: auto;
   z-index: 1;
 }
-
+footer {
+  flex-grow: 1;
+  /* Your existing styles for footer... */
+}
 .checkout-container {
   display: flex;
   flex-direction: column;
@@ -101,7 +104,6 @@ header img {
   height: auto;
   /* max-width: 530px; */
   /* margin: 0 auto; */
-
 }
 
 .order-item {
@@ -116,7 +118,6 @@ header img {
   padding: 0.5rem 0;
   border-top: 1px solid #fff;
   margin-top: 1rem;
-  
 }
 
 .order-item:last-child {
@@ -127,7 +128,6 @@ header img {
   display: flex;
   background-color: darkred;
   opacity: 0.7;
-
 }
 
 .product-info h3 {
@@ -174,17 +174,18 @@ header img {
   margin-left: auto;
 }
 
-
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #333333;
   padding: 20px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
-.footer-left, .footer-middle, .footer-right {
+.footer-left,
+.footer-middle,
+.footer-right {
   flex: 1;
 }
 
@@ -205,14 +206,14 @@ header img {
 
 .footer-left p {
   font-size: 14px;
-  color: #888;
+  color: #ffffff;
 }
 
 .footer-middle {
   text-align: center;
 }
 
- ul {
+ul {
   list-style: none;
   display: flex;
   gap: 20px;
@@ -220,7 +221,7 @@ header img {
 
 ul li a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -233,12 +234,12 @@ ul li a:hover {
   margin: 20px 0;
 }
 .social-icons a {
-  color: #333; 
-  margin-right: 10px; 
+  color: #333;
+  margin-right: 10px;
 }
 
 .social-icons a:hover {
-  color: #007bff; 
+  color: #007bff;
 }
 
 .fa-facebook-f {
