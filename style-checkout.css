@@ -20,14 +20,14 @@ header {
   position: relative;
 }
 
-header  h1 {
+header h1 {
   position: absolute;
   top: 50px;
   font-size: 3rem;
   z-index: 2;
 }
 
-header  img {
+header img {
   position: absolute;
   bottom: -27rem;
   left: 50%;
@@ -43,8 +43,15 @@ header  img {
   align-items: center;
   justify-content: center;
   width: 100%;
- 
+
   background-color: black;
+}
+
+.checkout-container h1 {
+  margin: 2rem 0;
+  /* move to the left */
+  text-align: left;
+  width: 45%;
 }
 
 .checkout-items-container {
@@ -59,16 +66,14 @@ header  img {
   flex-direction: column;
   background-color: white;
   margin: 0 50px;
- 
 }
 
-
-.card  img {
+.card img {
   width: 100%;
   height: auto;
   aspect-ratio: 3/4;
 }
-.card  h2 {
+.card h2 {
   color: black;
   margin: 10px 10px;
 }
@@ -89,22 +94,19 @@ header  img {
   color: #fff;
   display: flex;
   flex-direction: column;
-  /* margin: 0 50px; */
-  padding: 1rem;
-  /* flex-wrap: wrap; */
-  /* align-content: space-around; */
+
+  padding: 5rem;
   top: 50px;
-  width: 100%;
+  width: 45%;
   height: auto;
-  max-width: 530px;
-  /* max-height: 400px; */
-  /* transform: translateY(120%); */
+  /* max-width: 530px; */
+  /* margin: 0 auto; */
+
 }
 
 .order-item {
   display: flex;
   justify-content: space-between;
-  /* border-bottom: 1px solid #fff; */
   padding: 0.5rem 0;
 }
 
@@ -114,6 +116,7 @@ header  img {
   padding: 0.5rem 0;
   border-top: 1px solid #fff;
   margin-top: 1rem;
+  
 }
 
 .order-item:last-child {
@@ -123,16 +126,17 @@ header  img {
 .product-info {
   display: flex;
   background-color: darkred;
-  opacity: 0.7
+  opacity: 0.7;
 
 }
 
-.product-info h2 {
-    margin: 10px 10px;
-    
+.product-info h3 {
+  margin: -2px 10px;
 }
 
-.order-product, .order-amount, .order-price {
+.order-product,
+.order-amount,
+.order-price {
   flex: 1;
 }
 
@@ -143,9 +147,6 @@ header  img {
 .order-amount {
   flex: 3;
 }
-
-
-
 
 .item-name,
 .item-quantity,
@@ -161,7 +162,7 @@ header  img {
   flex: 3;
 }
 
-.order-summary  button {
+.order-summary button {
   background-color: red;
   color: #fff;
   border: none;
@@ -170,5 +171,5 @@ header  img {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   margin-top: 1rem;
   width: 30%;
-  margin-left: auto; 
+  margin-left: auto;
 }
