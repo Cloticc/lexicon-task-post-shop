@@ -23,9 +23,18 @@ header {
 header h1 {
   position: absolute;
   top: 10rem;
-  font-size: 3rem;
+  font-size: 5rem;
+  /* font-size: 1000%; */
   z-index: 2;
 }
+
+.nav-bar {
+  position: absolute;
+  top: 10px; /* Adjust the top margin as needed */
+  left: 10px; /* Adjust the left margin as needed */
+}
+
+
 
 header img {
   position: absolute;
@@ -235,6 +244,8 @@ ul li a:hover {
 .social-icons {
   text-align: center;
   margin: 20px 0;
+  /* increase size */
+  font-size: 3rem;
 }
 .social-icons a {
   color: #333;
