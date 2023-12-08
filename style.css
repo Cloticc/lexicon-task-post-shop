@@ -125,6 +125,7 @@ button {
 
 .footer-middle {
   text-align: center;
+  margin-top: -20px;
 }
 
 ul {
@@ -147,14 +148,14 @@ ul li a:hover {
   text-align: center;
   margin: 20px 0;
   /* increase size */
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .social-icons {
   text-align: center;
   margin: 20px 0;
   /* increase size */
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .social-icons a {
   color: #333;
