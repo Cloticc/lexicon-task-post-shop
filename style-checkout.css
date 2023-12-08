@@ -191,14 +191,10 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333333;
+  background-color: #555555;
   padding: 20px;
-}
-
-.footer-left,
-.footer-middle,
-.footer-right {
-  flex: 1;
+  color: white;
+  margin-top: 100px;
 }
 
 .footer-left ul {
@@ -223,6 +219,7 @@ footer {
 
 .footer-middle {
   text-align: center;
+  margin-top: -20px;
 }
 
 ul {
@@ -241,11 +238,18 @@ ul li a:hover {
   text-decoration: underline;
 }
 
+.social-media {
+  text-align: center;
+  margin: 20px 0;
+  /* increase size */
+  font-size: 1.5rem;
+}
+
 .social-icons {
   text-align: center;
   margin: 20px 0;
   /* increase size */
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .social-icons a {
   color: #333;
@@ -266,4 +270,43 @@ ul li a:hover {
 
 .fa-twitter {
   color: lightblue;
+}
+@media (max-width: 768px) {
+  .main-container main {
+    margin: 100px 50px;
+  }
+
+  .main-container main div {
+    flex-basis: calc(
+      50% - 20px
+
+    ); 
+  }
+
+  .secondary-container {
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .char-11, .char-12 {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    margin: 10px 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    /* margin: 0 20px; */
+  }
+
+  .footer-left {
+    margin-bottom: 20px;
+  }
+
+  .footer-right ul {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
