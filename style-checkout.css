@@ -1,5 +1,5 @@
 * {
-  color: white;
+
 }
 
 body,
@@ -15,7 +15,6 @@ header {
   width: 100%;
   height: 40vh;
   overflow: hidden;
-
   background-color: #3ddf7e;
   position: relative;
 }
@@ -26,6 +25,7 @@ header h1 {
   font-size: 5rem;
   /* font-size: 1000%; */
   z-index: 2;
+  color: white;
 }
 
 .nav-bar {
@@ -34,7 +34,18 @@ header h1 {
   left: 10px; /* Adjust the left margin as needed */
 }
 
+.burger-menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
 
+  margin: 25px 25px;
+}
 
 header img {
   position: absolute;
@@ -78,7 +89,6 @@ footer {
   background-color: white;
   /* margin: 0 50px; */
   margin: 0 30px;
-
 }
 
 .card img {
@@ -277,10 +287,7 @@ ul li a:hover {
   }
 
   .main-container main div {
-    flex-basis: calc(
-      50% - 20px
-
-    ); 
+    flex-basis: calc(50% - 20px);
   }
 
   .secondary-container {
@@ -288,7 +295,8 @@ ul li a:hover {
     margin: 0 20px;
   }
 
-  .char-11, .char-12 {
+  .char-11,
+  .char-12 {
     width: 100%;
     aspect-ratio: 3 / 4;
     margin: 10px 0;
