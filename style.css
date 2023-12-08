@@ -100,13 +100,9 @@ button {
   background-color: #555555;
   padding: 20px;
   color: white;
+ margin-top: 100px;
 }
 
-.footer-left,
-.footer-middle,
-.footer-right {
-  flex: 1;
-}
 
 .footer-left ul {
   list-style: none;
